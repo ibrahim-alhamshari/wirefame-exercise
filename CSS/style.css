@@ -1,15 +1,23 @@
 * {
     box-sizing: border-box;
-    background-color: teal;
+  
   }
-header{
+  header {
+      display:block;
+     background-color: rgb(34, 36, 34); 
+  }
+header nav {
     display: inline-block;
+    text-align: center;
     position: relative;
-    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 header nav img {
  margin-top:5px;
+ margin-right: 50px;
     width: 200px;
     height: 70px;
 }
@@ -18,8 +26,15 @@ header nav li {
     float: right;
     padding: 15px;
     margin-top: 15px;
+    margin-right: 20px;
+    margin-left:20px;
+    border-radius: 50%;
+    background-color: rgb(230, 200, 195);
 }
-
+main {
+    margin-top: 30px;
+    margin-left: 100px;
+}
 main section nav img {
     width: 960px;
     height: 450px;
@@ -28,8 +43,8 @@ main section nav img {
 main section p img {
     width: 300px;
     height: 375px;
-    margin-right: 30px;
-    background-color: yellowgreen;
+    margin-right: 26px;
+  
 }
 
 main article img {
@@ -44,20 +59,24 @@ section article p {
     width: 380px;
     height: 400px;
     margin-left: 20px;
-float: right;
+    text-justify: distribute;
+    float: right;
 }
-section article li {
+/* section article li {
     display:inline;
     position: absolute;
     margin-top: 300px;
     margin-left: 100px;
     float:right;
    padding: 30px;
-   background-color: rgb(60, 39, 182);
-}
-footer {
+   background-color: rgb(221, 216, 247);
+   border-radius: 50%;
+} */
+footer p {
     background-color: tomato;
+    -webkit-text-size-adjust:20 ;
+    padding-top: 30px;
     text-align: center;
-    
     height: 100px;
+    font-size: 25px;
 }
