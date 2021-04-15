@@ -4,7 +4,7 @@
   }
   header {
       display:block;
-     background-color: rgb(34, 36, 34); 
+     background-color: rgb(36, 34, 33);
   }
 header nav {
     display: inline-block;
@@ -25,11 +25,13 @@ header nav img {
 header nav li {
     float: right;
     padding: 15px;
+    font-size: 30px;
+    color: rgb(253, 251, 253);
     margin-top: 15px;
     margin-right: 20px;
     margin-left:20px;
-    border-radius: 50%;
-    background-color: rgb(230, 200, 195);
+    border-radius: 100%;
+    /* background-color: rgb(230, 200, 195); */
 }
 main {
     margin-top: 30px;
@@ -62,18 +64,20 @@ section article p {
     text-justify: distribute;
     float: right;
 }
-/* section article li {
+section article li {
     display:inline;
     position: absolute;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
     margin-top: 300px;
     margin-left: 100px;
     float:right;
    padding: 30px;
-   background-color: rgb(221, 216, 247);
-   border-radius: 50%;
-} */
+   background-color: rgb(15, 15, 15);
+   /* border-radius: 50%; */
+}
 footer p {
-    background-color: tomato;
+    background-color: rgb(110, 108, 107);
     -webkit-text-size-adjust:20 ;
     padding-top: 30px;
     text-align: center;
