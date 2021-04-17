@@ -82,9 +82,9 @@ section article li {
     margin-top: 300px;
     margin-left: 100px;
     float:right;
-   padding: 30px;
+   padding: 20px;
    background-color: rgb(15, 15, 15);
-   /* border-radius: 50%; */
+   border-radius: 10%;
 }
 footer p {
     background-color: rgb(110, 108, 107);
