@@ -57,12 +57,22 @@ section article {
 display: inline-block;
 position: relative;
 }
-section article p {
+#feature2{
+    margin-top: 40px;
     width: 380px;
     height: 400px;
     margin-left: 20px;
     text-justify: distribute;
     float: right;
+}
+
+#feature{
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: bold;
 }
 section article li {
     display:inline;
